@@ -25,6 +25,12 @@
 - `'/home-ownership'` pretty aight 
   - _future consideration: could use a table for the "Income Guidelines" fam size and ygi_
 - `'/home-repairs-rehab'` pretty aight
+- `'/shop-the-restore'` the "Visit Us Today!" section is not scaling well in the medium sized screen range
+  - font size and color for "Tuesday" in the store hours under "COVID=19 Safety Updates" does not match the other days
+  - the code for Monday and Tuesday are not the same as each other, or the other days wtf
+  - the `<a data-number="+phone-number">` text in the "Interested in volunteering at the Restore?" section includes more than just the phone number turning the last sentence into a link
+- `'/events/golfclassic'` the `<h3>` is all over the place when scaling screen size. Text is wrapping under the image a few times between large and small
+
 
 
 
