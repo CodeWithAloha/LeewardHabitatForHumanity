@@ -16,7 +16,9 @@
   - _scratch that_ they use it as a hashtag #CostofHome (still don't like it 😆)
 - `'/staff-board'` a few things here:
   - image sizes are inconsistent
-  - Skidget's title overflows? to a new line under the image. None of the other titles do this
+  - A few of the titles overflow to a new line under the image. There's media queries setting a max width for various screen sizes and it's causing the titles to wrap to a new line. 
+    - fix would be move the titles under the image
+    - putting `<img>`'s in `<p>` tags is a new one for me
   - nit: they could really use some new/better staff images, especially Jo's
 - `'/build_site_volunteers'` the max width set on the container is breaking the layout on larger screens (especially the top `<strong>` tag)
   - nit: the feature-image is taking up a lot of prime real estate above the fold
@@ -46,6 +48,33 @@
     - the text in not moving to below the image until it's like one or two letters next to the image. I'm probably describing it badly, but the image sizing the way the text is wrapping is causing problems. 
   - could use some padding between the golfclassic.jpg image and the text below it
   - could use some margin (or padding, idk which is preffered) above the `<h3>`
+
+-----
+
+</br>
+
+## Summary 
+
+- **Overall:** There's only a few truely broken items, but there's a lot of layout issues and screen size scaling issues. Idk if the layout and scaling is a Wordpress thing, a theme thing, or the way the creator put it together, but it doesn't look good, it's not a great user experience and could use some work. I'll check out the theme to see where it can be fixed. 
+- **Proposed fixes:** The items that are actually broken or non-functional are straight forward to fix. Make them work. Done. The layout and scaling, if deemed necessary to fix, imo using a one column layout for all screen sizes would be a good and easy to implement solution. It's simple, easy to read, and easy to navigate. 
+Once this site is vaporized and we're working with a modern tech stack + new content, a more robust, dynamic and modern layout can be implemented.
+- **Next Steps:** Take the final list of items deemed "broken" to Jo. I'll walk her through them on the site so she can see what exactly each item is and the proposed "fixes" for each. 
+
+-----
+
+### kmal's To-Do List
+- **Todo:** 
+  - [ ] Create a master list of items that are "broken", non-functional, or deemed worthy of fixing at this juncture.
+  - [ ] Schedule a meeting with Jo 
+    - [ ] Show, explain, and propose fixes/changes for "project-lipstick"
+    - [ ] Request shell access to the hostmonster server (if it's not already available)
+    - [ ] Discuss next steps (_once project lipstick is complete_)
+  - [ ] Configure Git Version Control, whether that's done with the hostmonster integration or elsewhere
+    - [ ] Get the files to repo
+    - [ ] Create a new [EPIC] issue for this project phase and [TASK] issues for each item on the master list
+  - [ ] WIP 🏗
+
+-----
                           
                    
 
