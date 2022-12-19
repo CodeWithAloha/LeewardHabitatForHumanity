@@ -30,7 +30,24 @@
   - the code for Monday and Tuesday are not the same as each other, or the other days wtf
   - the `<a data-number="+phone-number">` text in the "Interested in volunteering at the Restore?" section includes more than just the phone number turning the last sentence into a link
 - `'/events/golfclassic'` the `<h3>` is all over the place when scaling screen size. Text is wrapping under the image a few times between large and small
-
+- `'/events/women-build'` last two `<div>`'s before the footer, think they are supposed to be image galleries for the 2018 & 2019 events buuuuut they are not working
+  - `[mk_gallery title=”2019 Women Build” images=”1599,1600,1601,1596,1597,1598″ image_size=”large”]`
+  - `[mk_gallery title=”2018 Women Build” images=”1448,1447,1446,1445,1444,1443″ column=”6″]` 
+    - ⬆️ is what is being shown on the page
+  - nit: the column layout on the "2021 Women Build" section looks like poop on anything larger than 768px wide screen size. The image should be full container width above the `<h1>` making one column (same as it is on mobile)
+  - there's a random period `"."` in a `<p>` tag after the `text-content` `<ul>`. Thought it was something on my screen at first 🤣
+- `'/donate/online-donations'` goes to the paypal page to donate, and works as expected
+  - nit: the link to the donate page is buried away in the "menu more" of the header. Adding a "donate with paypal" button to most of the pages would be a "nice to have" 
+- `'/donate'` as with most of the other pages, the layout is doo doo on anything 768px wide or larger
+- `'/sponsorship'` layout, again. See first and second `<p>` tags in the `<div class="entry-content">` section  
+  - An `<img>` inside of a `<strong>` tag inside of a `<p>` tag? **Wut**? (_this seems to be a site wide thing, not just this page_)    
+- `'/give/golfclassicsponsorship'` layout layout layout
+  - the top `<p>` tag that has two `<img>`'s inside of it and the second `<p>` with the text...why? 🤔
+    - the text in not moving to below the image until it's like one or two letters next to the image. I'm probably describing it badly, but the image sizing the way the text is wrapping is causing problems. 
+  - could use some padding between the golfclassic.jpg image and the text below it
+  - could use some margin (or padding, idk which is preffered) above the `<h3>`
+                          
+                   
 
 
 
