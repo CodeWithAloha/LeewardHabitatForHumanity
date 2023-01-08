@@ -1,0 +1,74 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: January 7, 2023 10:32 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.1
+WORDPRESS:	6.1.1
+PHP INFO:	7.4.28 | SAPI: litespeed
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: leewardh_010722_0df2375cb582bea81809_20230107103215_database.sql
+SQL FILE SIZE: 7.53MB (7892822)
+SQL FILE TIME: 2023-01-07 10:32:19
+SQL RUNTIME: 0.20 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home2/leewardh/public_html
+ARCHIVE FILE: leewardh_010722_0df2375cb582bea81809_20230107103215_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: leewardh_010722_0df2375cb582bea81809_20230107103215_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home2/leewardh/public_html/wp-content/backups-dup-lite/tmp/leewardh_010722_0df2375cb582bea81809_20230107103215_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/home2/leewardh/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 519.25KB
+ARCHIVE RUNTIME: 0.34 sec.
+MEMORY STACK: 8MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 7.53MB
+INSTALLER FILE: 73.34KB
+ARCHIVE FILE: 2.28MB 
+EXPECTED FILE/DIRECTORY COUNT: 0
+ACTUAL FILE/DIRECTORY COUNT: 0
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 1.04 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => leewardh_010722 January 7, 2023 10:32 am
+
