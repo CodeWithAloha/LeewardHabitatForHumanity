@@ -72,6 +72,7 @@ Once this site is vaporized and we're working with a modern tech stack + new con
   - [ ] Configure Git Version Control, whether that's done with the hostmonster integration or elsewhere
     - [ ] Get the files to repo
     - [ ] Create a new [EPIC] issue for this project phase and [TASK] issues for each item on the master list
+    - [ ] [resupply](https://resupplyapp.com)
   - [ ] WIP 🏗
 
 -----
