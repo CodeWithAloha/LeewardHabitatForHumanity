@@ -11,9 +11,10 @@
 
 #### 12/15/2022 | Kurt
 - `'/'` home page looks okay
-- `'/mission'` has a broken image in the left sidebar that links to '/?page_id=34'
+- `'/mission'` has a broken image in the left sidebar that links to '/?page_id=34' 
+  - I'm not able to replicate the issue on Safari 16.3, but can on Edge 110.0 (3/11/23)
 - `'/advocacy'` the `<h2>` "Cost of Home", should that be "_Cost of a Home_"? (same applies to the first sentence of the paragraph) 
-  - _scratch that_ they use it as a hashtag #CostofHome (still don't like it 😆)
+  - _scratch that_ they use it as a hashtag #CostofHome in few places. 
 - `'/staff-board'` a few things here:
   - image sizes are inconsistent
   - A few of the titles overflow to a new line under the image. There's media queries setting a max width for various screen sizes and it's causing the titles to wrap to a new line. 
